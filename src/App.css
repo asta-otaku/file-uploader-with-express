@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+.App {
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.header-title svg {
+    vertical-align: bottom;
+}
+
+.custom-file {
+    display: flex;
+    width: 80%;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px auto;
+    align-items: center;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+.custom-file-label {
+    order: -1;
+    flex: 1;
+}
