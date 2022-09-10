@@ -1,35 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .header-title {
-    text-align: center;
-    margin-bottom: 4px;
-    font-size: xx-large;
-    font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  font-weight: 400;
 }
 
 .header-title svg {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 .custom-file {
-    display: flex;
-    width: 80%;
-    height: 2rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 4px auto;
-    align-items: center;
+  display: flex;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0.5rem auto;
+  align-items: center;
+  padding: 2px 0;
 }
 
 .custom-file-input {
-    display: none;
+  display: none;
 }
 
 .custom-file-label {
-    order: -1;
-    flex: 1;
+  flex: 1;
+  font-weight: 300;
+}
+
+.file-upload {
+  margin-top: 2rem;
+  width: 80%;
+  padding: 6px 2px;
+  border-radius: 5px;
+  background-color: #1f2deb;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.upload-cntainer {
+  margin-top: 4rem;
+}
+
+.upload-cntainer img {
+  width: 70%;
+}
+
+.upload-percentage-container {
+  height: 20px;
+  width: 80%;
+  background-color: #e0e0de;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.upload-percentage {
+  height: 100%;
+  background-color: #54cf24e8;
+  border-radius: 50px;
+}
+
+.upload-label {
+  padding: 5px;
+  color: #f7f7f7;
+  font-weight: 400;
 }
